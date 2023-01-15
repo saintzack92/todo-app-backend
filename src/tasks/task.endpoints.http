@@ -1,0 +1,21 @@
+###Fetch all tasks
+
+GET http://localhost:3201/tasks
+Content-Type: application/json
+
+POST http://localhost:3201/tasks
+Content-Type: application/json
+{
+    "title":"title3",
+    "date": "2021-01-12",
+    "description":"my task description",
+    "priority":"normal",
+    "status":"todo"
+}
+
+PUT http://localhost:3201/tasks
+Content-Type: application/json
+{
+    "id":"1231231asd",
+    "status":"in Progres"
+}
